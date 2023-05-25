@@ -1,0 +1,15 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.md",
+  "scripts": {
+    "start": "reveal-md ./presentations/",
+    "open": "reveal-md ./presentations/$FILE"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^5.5.0"
+  }
+}
